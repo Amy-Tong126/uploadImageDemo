@@ -1,0 +1,63 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  padding: 8px;
+}
+
+.uploadBox{
+  border: 1px dashed #cccccc;
+  border-radius: 8px;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  background: #fcfcfc;
+}
+.uploadBox:hover{
+  border: 1px dashed rgb(24, 173, 228);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s ;
+  -ms-transition: 0.3s ;
+  -o-transition: 0.3s ;
+  transition: 0.3s ;
+}
+.imgBox{
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  position: relative;
+}
+.imgBox img{
+  width: 90%;
+  position:absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top:0;
+  bottom: 0;
+  border: 1px solid #fcfcfc;
+}
+.imgBox .mask{
+  width: 100%;
+  border-radius: 8px;
+  position:absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top:0;
+  bottom: 0;
+  background: rgb(255,255,255,0.82);
+}
+
+.mask .progress{
+  margin: 30px 20px 0 20px;
+}
+.mask .fileName{
+  margin: 40px 20px 0 20px;
+  font-weight: bold;
+}
+
+
+
