@@ -1,3 +1,5 @@
+博客：https://www.jianshu.com/p/126248b00034
+
 js实现图片上传功能，实现的效果，先见图来压压惊
 ![图片上传.gif](https://upload-images.jianshu.io/upload_images/11565434-1129622d7c340824.gif?imageMogr2/auto-orient/strip)
 
